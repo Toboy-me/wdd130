@@ -55,7 +55,7 @@
   // These settings also control ChatGPT Codex behaviour
   "chat.agent.enabled": true,
   "chat.includeReferencedInstructions": true,
-  "chat.useAgentsMdFile": true,
+  "chat.useAgentsMdFile": false,
   // limit Intellisense help in the terminal
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": true
 }
