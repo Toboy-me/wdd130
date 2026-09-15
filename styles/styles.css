@@ -1,3 +1,8 @@
+:root {
+    --width: 20rem;
+    --height: 20rem;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -9,7 +14,7 @@ main {
 }
 
 aside {
-    width: 20rem;
+    width: var(--width);
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
@@ -19,7 +24,7 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: var(--width);
     height: auto;
 }
 
@@ -34,7 +39,7 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: var(--width);
     height: auto;
     border: 1px solid black;
     padding: 2px;
