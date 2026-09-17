@@ -71,11 +71,17 @@ h1 {
 
 .hero article {
     position: absolute;
+    color: #264653;
+    width: auto;
+    padding: 16px;
+    background-color: yellowgreen;
+    bottom: 20px;
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: auto;
+    height: ;
 }
 
 h1,

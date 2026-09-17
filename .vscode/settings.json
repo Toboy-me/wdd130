@@ -57,5 +57,8 @@
   "chat.includeReferencedInstructions": true,
   "chat.useAgentsMdFile": false,
   // limit Intellisense help in the terminal
-  "terminal.integrated.initialHint": true
+  "terminal.integrated.initialHint": true,
+  "cSpell.words": [
+    "Somtochukwu"
+  ]
 }
