@@ -74,7 +74,7 @@ h1 {
     color: #264653;
     width: auto;
     padding: 16px;
-    background-color: yellowgreen;
+    background-color: var(--secondary-color);
     bottom: 20px;
 }
 
