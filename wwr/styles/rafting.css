@@ -8,7 +8,10 @@
 }
 
 header {
-    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    background-color: var(--accent2-color);
     color: var(--accent2-color);
 }
 
@@ -88,4 +91,8 @@ h2 {
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
+}
+
+nav {
+    display: flex;
 }
