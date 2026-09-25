@@ -38,6 +38,15 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
+    text-align: center;
+    background-color: var(--accent1-color);
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
     color: var(--primary-color);
 }
 
@@ -102,26 +111,14 @@ h1 {
     color: var(--accent1-color);
     padding: 20px;
     border: 1px solid var(--accent1-color);
-    display: flex;
-    align-items: center;
-}
-
-hero article p {
-    flex: 1;
 }
 
 .hero article img {
-    height: 70px;
-    width: 90px;
-    object-fit: cover;
-    flex-shrink: 0;
-}
-
-h1,
-h2 {
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: #fff;
+    float: right;
+    width: 120px;
+    height: auto;
+    margin-left: 12px;
+    margin-bottom: 8px;
 }
 
 nav {
