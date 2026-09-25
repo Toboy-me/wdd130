@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent2-color);
-    color: var(--accent2-color);
+    color: #f4a261;
     padding: 15px 25px;
     border: 1px solid;
 }
