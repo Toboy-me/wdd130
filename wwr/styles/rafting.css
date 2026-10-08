@@ -291,7 +291,8 @@ footer p {
     border-radius: 2px;
 }
 
-.hero-article {
+.hero article {
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -299,12 +300,13 @@ footer p {
     background-color: var(--form-bg);
 }
 
-.hero-article img {
+.hero article img {
     width: 180px;
     height: 120px;
     object-fit: cover;
     border: 1px solid var(--border-color);
     flex-shrink: 0;
+    float: right;
 }
 
 .hero-article p {
