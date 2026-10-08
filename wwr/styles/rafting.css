@@ -319,8 +319,6 @@ footer p {
     padding: 20px;
     margin-bottom: 24px;
     background-color: #ffffff;
-    border: 1px solid var(--border-color);
-    margin-bottom: 24px;
     text-align: center;
 }
 
